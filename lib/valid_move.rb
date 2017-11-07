@@ -1,5 +1,5 @@
 def valid_move?(board, index)
-  if (position_taken?(board, index) == false) && ((board[index].to_i).between?(0, 8))
+  if (position_taken?(board, index) == false) && (index.between?(0, 8))
     true
   else
     false
